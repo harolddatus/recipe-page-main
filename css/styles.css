@@ -25,6 +25,8 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  margin-left: 15em;
+  margin-right: 15em;
 }
 
 .recipe-wrapper {
@@ -206,7 +208,7 @@ body {
   color: hsl(228, 45%, 44%); 
 }
 
-@media screen and (max-width:375px){
+@media screen and (max-width:576px){
 
   body {
     background-color: var(--eggshell);
@@ -215,16 +217,17 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    margin-left: 15em;
+    margin-right: 15em;
   }
 
   .recipe-wrapper {
     background-color:var(--white);
     padding: 40px;
     border-radius: 20px;
-    max-width: 93%;
     margin-top: 25px;
     margin-bottom: 15px;
-}
+  }
 
   .recipe-heading h1{
     font-size: 2.3rem;
@@ -235,3 +238,7 @@ body {
     opacity: .85;
 }
 }
+
+
+
+
