@@ -45,7 +45,7 @@ body {
 .recipe-heading h1{
   font-size: 3.5rem;
   margin-bottom: 15px;
-  font-family: 'Young serif', sans-serif;
+  font-family: Young serif, sans-serif;
   font-weight: 400;
   opacity: .85;
 }
@@ -59,7 +59,7 @@ body {
 
 .prep-time p {
   font-size: 1.5rem;
-  font-family: 'Young serif', sans-serif;
+  font-family: Young serif, sans-serif;
   font-weight: 300;
   opacity: .94;
   color: var(--primary-dark-raspberry);
@@ -107,14 +107,14 @@ body {
 .recipe-ingredients h3 {
   font-size: 2rem;
   font-weight: 400;
-  font-family: 'Young serif', sans-serif;
+  font-family: Young serif, sans-serif;
   color: var(--primary-nutmeg);
 }
 .recipe-ingredients ul {
   margin: 20px;
   line-height: 2em;
   color: var(--dark-charcoal);
-  font-family: 'Young serif', sans-serif;
+  font-family: Young serif, sans-serif;
   font-size: 1rem;
   font-weight: 100;
   opacity: .97;
@@ -132,7 +132,7 @@ body {
 }
 .recipe-instructions ol li {
   padding-left: 13px;
-  font-family: 'Young serif', sans-serif;
+  font-family: Young serif, sans-serif;
   font-size: 1rem;
   font-weight: 100;
   opacity: .95;
@@ -149,7 +149,7 @@ body {
 .recipe-instructions h3 {
   font-size: 2rem;
   font-weight: 400;
-  font-family: 'Young serif', sans-serif;
+  font-family: Young serif, sans-serif;
   color: var(--primary-nutmeg);
 }
 
@@ -161,7 +161,7 @@ body {
 .recipe-nutrition h3 {
   font-size: 2rem;
   font-weight: 400;
-  font-family: 'Young serif', sans-serif;
+  font-family: Young serif, sans-serif;
   color: var(--primary-nutmeg);
 }
 
@@ -172,7 +172,7 @@ body {
 
 .recipe-nutrition p {
   margin-top: 20px;
-  font-family: 'Young serif', sans-serif;
+  font-family: Young serif, sans-serif;
   font-size: 1rem;
   font-weight: 100;
   opacity: .74;
@@ -206,7 +206,7 @@ body {
   color: hsl(228, 45%, 44%); 
 }
 
-@media screen (max-width:375){
+@media screen and (max-width:375px){
 
   body {
     background-color: var(--eggshell);
@@ -230,7 +230,7 @@ body {
     font-size: 2.3rem;
     line-height: 1.2em;
     margin-bottom: 15px;
-    font-family: 'Young serif', sans-serif;
+    font-family: Young serif, sans-serif;
     font-weight: 400;
     opacity: .85;
 }
