@@ -32,7 +32,7 @@ body {
   padding: 20px;
   border-radius: 20px;
   max-width: 850px;
-  margin: 49px 20px;
+  margin: 50px 18px;
 }
 
 .recipe-heading img {
@@ -187,7 +187,7 @@ body {
 .recipe-nutrition table span {
   font-size: 1.2rem;
   font-weight: 700;
-  margin-left: 250px;
+  margin-left: 450px;
   color: var(--primary-nutmeg);
 }
 
@@ -224,7 +224,7 @@ body {
   .recipe-nutrition table span {
     font-size: 1.2rem;
     font-weight: 700;
-    margin-left: 130px;
+    margin-left: 150px;
     color: var(--primary-nutmeg);
   }
   
