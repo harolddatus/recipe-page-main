@@ -29,10 +29,10 @@ body {
 
 .recipe-wrapper {
   background-color:var(--white);
-  padding: 40px;
+  padding: 20px;
   border-radius: 20px;
   max-width: 850px;
-  margin: 49px;
+  margin: 49px 20px;
 }
 
 .recipe-heading img {
@@ -206,22 +206,28 @@ body {
 
 
 @media (max-width: 678px){
-  .recipe-wrapper {
+   .recipe-wrapper {
     background-color:var(--white);
-    margin: 20px;
-    padding: 20px;
     border-radius: 20px;
-    max-width: 850px;
+    max-width: 375px;
   }
 
   .recipe-heading h1{
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     line-height: 1.2;
     margin-bottom: 15px;
     font-family: Young serif, sans-serif;
     font-weight: 400;
     opacity: .85;
   }
+
+  .recipe-nutrition table span {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 130px;
+    color: var(--primary-nutmeg);
+  }
+  
 }
  
 
